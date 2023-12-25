@@ -1,0 +1,189 @@
+.BookAppointmentHeading{
+    text-align: center;
+    padding: 5px;
+
+    margin: 5px;
+    font-family: "Great Vibes", cursive; font-size: 26px; line-height: 26px; font-weight: normal; margin-bottom: 0px;  text-align: center; text-shadow: 0 1px 1px #fff;
+}
+.NavigationDoctorRow{
+    border-bottom: 1px solid black;
+}
+
+.Avilableheading{
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    font-family: "Great Vibes", cursive; font-size: 26px; line-height: 26px; font-weight: normal; margin-bottom: 0px;  text-align: center; text-shadow: 0 1px 1px #fff;
+
+}
+@keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+.Tabs{
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: extra-condensed;
+}
+.onlineDoctor{
+    color: green;
+    font-size: 12px;
+    padding: 2px;
+    margin: 2px;
+}
+.DoctorDetailsBackgroungImage{
+    background:url('./backgroundImage.jpg');
+    background-size: auto 240px;
+    background-attachment: local;
+    background-repeat: repeat-x;
+    object-fit: contain;
+    background-size: auto 125px;
+    content: " ";
+    height: 250px;
+    left: 0;
+    position: relative;
+    top: 10px;
+    width: 100%;
+}
+.AppointmentBookingRows{
+    padding: 2px;
+    margin: 2px;
+
+}
+.dateField{
+    justify-content: flex-end;
+}
+.PetInformation{
+    margin: 1px;
+}
+.calendeUser{
+display: flex;
+justify-content: space-around;
+}
+.BookAppointmentPaymentButton{
+    display: flex;
+    justify-content: end;
+}
+.TimeSlotCol{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.doctor_image{
+    object-fit: cover;
+    height: 220px;
+    width: 220px;
+    z-index: 0.5;
+    border-radius: 80%;
+  border: 12px solid azure;
+  position: absolute;
+  top: 38px;
+  left: 142px;
+}
+.NavigationButtonDoctorDetails{
+    width: 50%;
+}
+.doctorDetailCard{
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+}
+@keyframes slide-in-left {
+    0% {
+      transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .doctor_image_container{
+    animation: bounce-in-bck 1.1s both;
+  }
+  @keyframes bounce-in-bck {
+  0% {
+    transform: scale(7);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: scale(1.5);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: scale(1.24);
+    animation-timing-function: ease-in;
+  }
+  89% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: scale(1.04);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.AppointmentBookDoctorDetailButton{
+    background: rgba(150, 185, 219, 0.25);
+box-shadow: 0 8px 32px 0 rgba(150, 185, 219, 0.25);
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 2px;
+border: 1px solid rgba(255, 255, 255, 0.119);
+padding: 5px;
+margin: 5px;
+}
+.areaOfExpertie{
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+ 
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style-type: none;
+}
+.areaOfExpertie li{
+    padding: 4px;
+    margin: 4px;
+    border:1px solid black;
+    background-color: #B5838D;
+}
+.DoctorContainers{
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+
+}
+.InsideDoctorContainers{
+  padding: 2px;
+  margin: 4px;
+}

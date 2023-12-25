@@ -1,0 +1,36 @@
+.DashBoardNavbar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+  
+}
+.DashBoardNavbarLinks{
+    padding: 5px;
+    margin: 4px;
+ margin: auto;
+ cursor: pointer;
+ display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    white-space: nowrap;
+    padding: 1.125rem 0 1.125rem 0;
+    color: #3e4b5b;
+    -webkit-transition-duration: 0.45s;
+    transition-duration: 0.45s;
+    transition-property: color;
+    -webkit-transition-property: color;
+}
+.UserDashBoardNavbarContainer{
+    padding: 5px;
+    margin: 4px;
+}
+.userNameIcon{
+    height: auto;
+    line-height: 1;
+    border-top: 0;
+    padding: 1.25rem 0;
+}

@@ -1,0 +1,360 @@
+
+.bannerBoxBook{
+    padding-top: 3rem;
+    padding-left: 10%;
+}
+
+.bannerImageBox{
+background: url('../../../public/Images/background-image-for-pet-care-website-a-girl-we-upscaled-removebg-preview.jpg');
+background-position: center;
+background-size: contain;
+background-position:right; /* Center the image horizontally and vertically */
+background-repeat: no-repeat;
+-webkit-animation: fade-in-bck 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bck 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+height: 100vh; /* Set the container height as needed */
+}
+.DogCircle{
+    height: 180px;
+    background: rgb(68, 19, 173);
+    background: radial-gradient(circle, rgba(165, 152, 231, 0.284) 80%, rgba(242,228,228,1) 100%);
+ position: absolute;
+    top: 50%;
+    left:10%;
+    width: 80%;
+    border: 1px solid #08122D;
+    border-radius: 100%;
+    z-index: 0;
+}
+.bannerImageDogBox{
+    position: relative;
+    left: 70px;
+    background-position: center;
+background-size: contain;
+background-position:left; /* Center the image horizontally and vertically */
+background-repeat: no-repeat;
+top: 10%;
+height: 40%;
+
+width: 18%;
+
+
+}
+.bannerFormDescription{
+    margin: 5px;
+    text-align: center;
+    width: fit-content;
+    padding: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+.bannerFormHeading{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1.4;
+    text-align: center;
+    padding: 10px;
+    margin: 9px;
+}
+.bannerBox{
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+
+
+    max-width: 1140px;
+
+    position: relative;
+    text-align: center;
+    padding: 30px;
+    left: 50px;
+    width: fit-content;
+    position: absolute;
+    top: 14%;
+    left: 30%;
+}
+.groomHeading{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 4rem;
+}
+.HomeGroomSection{
+    padding: 20px;
+    
+}
+.GroomAbout{
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 0.5s ease-in, transform 0.8s ease-in;
+}
+.GroomOurMission{
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+}
+.visibleAbout {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .visibleOurmission {
+    opacity: 1;
+    transform: translateY(0);
+  }
+.HomeGroomSection h2 {
+      
+        font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.HomeGroomSection h4 {
+    font-size: 20px;
+    color: #050404;
+    margin-top: 20px;
+  }
+  
+  .HomeGroomSection p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  .HomeGroomSection ul {
+    list-style-type: none;
+    margin-left: 20px;
+  }
+  
+  .HomeGroomSection li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+.GroomPoints{
+    text-align: start;
+}
+.gromImageCol{
+    height: 455px;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid #1C6EA4;
+    border-radius: 60px 0px 60px 60px;
+    background-color: #8258cd;
+    position: relative;
+    width: 70%;
+    left: 16%;
+    top: 40%;
+    height: 50%;
+
+}
+.groomImage{
+    position: relative;
+    top: -57%;
+    background: url('../../../public/Images/About.png');
+    background-size:cover;
+    height: 455px;
+background-position: center;
+background-repeat:space;  
+max-width: 650px;
+
+    width: auto;
+
+}
+.upsTitle{
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 4px;
+    max-width: 100%;
+    font-size: 20px;}
+    .SeriveImage{
+        
+        height: 52%;
+        width: 100%;
+    
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-position: center;
+    }
+    .SeriveLeftBox{
+        background-color: #fff4d9;
+        color: #283237;
+        padding: 75px 75px 65px;
+        justify-content: center;
+    margin-top: 15px;
+    max-height: 500px;
+    }
+    .serviceLeftBoxHeading{
+        background-color: #fff4d9;
+        color: #283237;
+      font-size: 20px;
+        justify-content: center;
+font-weight: bold;    
+
+    }
+    .serviceLeftHEading{
+display:flex;
+        background-color: #fff4d9;
+        color: #283237;
+        margin-bottom: 35px;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+  .HomeUniqueDiv{
+    padding: 5px;
+    margin: 5px;
+  }
+    .serviceList li{
+        padding: 3px 0 15px 40px;
+        background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwwrapww.w3.org%2F2000%2Fsvg%22%20id%3D%22color%22%20enable-background%3D%22new%200%200%2024%2024%22%20height%3D%2230%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2230%22%3E%3Cpath%20d%3D%22m23.526%205.101c-.04-.399-.231-.759-.541-1.014l-2.318-1.904c-.639-.524-1.585-.432-2.111.207l-9.745%2011.86-3.916-3.355c-.628-.536-1.576-.465-2.115.163l-1.952%202.278c-.261.304-.388.691-.357%201.091s.215.764.52%201.024l7.403%206.346c.275.235.616.361.974.361.044%200%20.089-.002.134-.006.405-.036.77-.229%201.028-.542l12.662-15.411c.255-.309.373-.7.334-1.098z%22%20fill%3D%22%23ff8f05%22%2F%3E%3C%2Fsvg%3E);
+        line-height: 24px;
+        list-style: none;
+        font-weight: 600;
+        background-repeat: no-repeat;
+    }
+    .bookConsultationButton{
+        background: #08122D;
+        margin-bottom: 0;
+        height: 60px;
+        font-size: 18px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+        margin-top: 50px;
+        padding: 10px 20px;
+    }
+    .bookConsultationButton:hover{
+        background-color: white;
+        color: #08122D;
+    }
+
+
+.bannerFormDescriptionDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.groomcolImageDiv{
+    background: url('../../../public/Images/footprint.png');
+  z-index: 50;
+background-position: right;
+background-repeat: no-repeat;
+background-position: left 5% top 30%;
+color: white;
+
+}
+.OurMissionFoot{
+    background: url('../../../public/Images/rightFootprint.png');
+    z-index: 50;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position: right -20px top 30%;
+}
+.OurMissionImage{
+ 
+    position: relative;
+    top: -57%;
+    left: 5%;
+    background: url('../../../public/Images/petOurMission.png');
+    background-size: contain;
+    height: 376px;
+    background-position: center;
+    background-repeat: space;
+    max-width: 650px;
+    width: auto;
+}
+.OurMissionCol{
+    height: 455px;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid #1C6EA4;
+   border-radius: 0px 60px 60px 60px;
+    background-color: #8258cd;
+    position: relative;
+    width: 70%;
+    left: 16%;
+    top: 40%;
+    height: 50%;
+}
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-in-bck {
+    0% {
+      -webkit-transform: translateZ(80px);
+              transform: translateZ(80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-bck {
+    0% {
+      -webkit-transform: translateZ(80px);
+              transform: translateZ(80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  .OurMissionHeading,.AboutUsHeading{
+    text-align: center;
+    border-bottom: 1px double #08122d;
+  }

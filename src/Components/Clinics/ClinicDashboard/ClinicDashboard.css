@@ -1,0 +1,12 @@
+.CountDocAppointCol{
+text-align: center;
+border: 1px solid;
+padding: 5x;
+margin: 5px;
+font-weight: bold;
+}
+.count-animation {
+    display: inline-block;
+    font-size: 24px; /* Adjust the font size as needed */
+    transition: color 0.3s ease, font-size 0.3s ease; /* Apply transitions for color and font size */
+  }

@@ -1,0 +1,33 @@
+.DashBoardHeading{
+    padding: 4px;
+    margin: 4px;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.DashBoardHeadingDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icons{
+  
+   font-size: .9375rem;
+    line-height: 36px;
+    text-align: center;
+    padding: 2px;
+    color: orange;
+    margin: 2px;
+   font-size: 18px;
+   display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    text-align: center;
+    -webkit-box-shadow: 0px 3px 8.3px 0.7px rgba(255, 182, 93, 0.35);
+    box-shadow: 0px 3px 8.3px 0.7px rgba(231, 203, 91, 0.886);
+    margin-right: 8px;
+}
